@@ -1,0 +1,50 @@
+/* 1439px-769px */
+@media (max-width: 1025px) {
+    /* Header */
+    header {
+        padding-inline: 92px;
+    }
+    /* First Section */
+    .FirstSection{
+        padding-inline: 92px;
+    }
+    /* Second Section */
+    .SectionTwoArticle_3{
+        display: none;
+    }
+    /* Thirs Section */
+    .ThirdSection{
+        width: calc(840 / 1025 * 100%);
+        flex-direction: column;
+        row-gap: 20px;
+        /* column-gap: 20px; */
+    }
+    .PhotoContainer{
+        width: 100%;
+    }
+    .ThirdSectionArticle{
+        width: 100%;
+    }
+    button{
+        margin-top: 48px;
+    }
+
+
+}
+
+@media (max-width: 835px) {
+    /* This is Header */
+    header{
+        padding-inline: 67px;
+
+    }
+        /* First Section */
+    .FirstSection{
+        padding-inline: 67px;
+    }
+    /* This is Third Section */
+    .ThirdSection{
+        width: calc(700 / 1025 * 100%);
+    }
+
+}

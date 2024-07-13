@@ -1,0 +1,214 @@
+/* Main container */
+.Container{
+    width:min(100%, 1440px);
+    margin: auto;
+}
+header{
+    background-color: #FFFFFF;
+    max-width: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 130px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.Burger{
+    display: none;
+}
+.HeaderLogo, .FooterLogo{
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+.HeaderText{
+    font-family: Pridi;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.9px;
+    color: #FA793C;
+
+}
+.HeaderSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+ul
+{
+    display: flex;
+    column-gap: 32px;
+}
+.HeaderList{
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+.fa-circle-user{
+    font-size: 24px;
+    color: #000000;
+}
+/* First Section */
+.FirstSection{
+    margin-top: 50px;
+    /* padding-top: 500px; */
+    height: 550px;
+    background-image: url(../Images/section1_cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 130px;
+}
+.SecondarySection_1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.SectionOneTitle{
+    font-family: Kanit;
+font-size: 50px;
+font-weight: 400;
+line-height: 75px;
+color: #FFFFFF;
+text-align: center;
+}
+.SectionOneText{
+    font-family: Kanit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* Second Section */
+.SecondSection{
+    width: calc(1180 / 1440 * 100%);
+    margin: 130px auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 34px;
+}
+.SecondSectionTitle{
+    font-family: Kanit;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    color: #000000;
+}
+.SecondarySection_2{
+    display: flex;
+    justify-content: space-between;
+    /* align-content: stretch; */
+    /* flex-wrap: wrap; */
+    column-gap: 20px;
+}
+.SectionTwoArticles, .SectionTwoArticle_3{
+    border:1px solid  #000000;
+    /* padding: 0 16px 16px; */
+}
+.SecondArticlePhotos{
+    height: 189px;
+    width: 100%;
+    object-fit: cover;
+}
+.TextContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 16px;
+}
+.ArticleTitles{
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+}
+.ArticleText{
+    font-family: Kanit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #000000;
+}
+/* Third Section */
+.ThirdSection{
+    width: calc(1180 / 1440 * 100%);
+    margin:120px auto;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.PhotoContainer{
+    width: 580px;
+    height: 400px;
+}
+.ThirdArticlePhoto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ThirdSectionArticle{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ArticleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+.ThirdSectionTitle{
+    font-family: Kanit;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #000000;
+}
+.ThirdSectionText{
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 32px;
+    color: #000000;
+}
+button{
+    border: none;
+    width: 180px;
+    height: 64px;
+    background-color: #CC5A24;
+    font-family: Kanit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/* Footerr */
+footer{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 31px;
+}
+
+.FooterText{
+    font-family: Pridi;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.9px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,43 @@
+/* 480px-320px */
+@media (max-width: 376px){
+    /* Header */
+    header{
+        padding-inline:14px;
+    }
+
+    .Burger{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    /* First Section */
+    .FirstSection{
+        padding-inline: 14px;
+    }
+
+    /* Third Section */
+    .SecondSectionTitle{
+        text-align: center;
+        font-size: 24px;
+    }
+    .SecondarySection_2{
+        flex-wrap: wrap;
+        row-gap: 21px;
+        /* flex-direction: column; */
+    }
+    /* Third Section */
+    .ThirdSection{
+        width: calc(347 / 375 * 100%);
+    }
+    .ThirdSectionTitle{
+        text-align: center;
+        font-size: 24px;
+    }
+    .ThirdSectionText{
+        font-size: 20px;
+    }
+    button{
+        width: 100%;
+    }
+}
